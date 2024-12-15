@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.currency-converter {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.currency-converter h1 {
+  font-size: 24px;
+  color: #2f80ed;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-container label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-container input,
+.input-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.input-container input:focus,
+.input-container select:focus {
+  border-color: #2f80ed;
+  box-shadow: 0 0 5px rgba(47, 128, 237, 0.5);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  background: #f6f8fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.result p {
+  margin: 0;
+}
+
+.box {
+  height: 5px;
+  width: 60px;
+  background: #2f80ed;
+  margin: 0 auto 20px auto;
+  border-radius: 5px;
+}
